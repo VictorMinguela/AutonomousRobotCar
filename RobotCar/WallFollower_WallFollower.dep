@@ -1,0 +1,20 @@
+Dependencies for Project 'WallFollower', Target 'WallFollower': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\startup.s)(0x57020C08)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -ID:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-ID:\Keil5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 535" --pd "TM4C123GH6PM SETA 1"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\ADCSWTrigger.c)(0x61956395)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .. -I ..\..\..-ID:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="535" -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\adcswtrigger.o --omf_browse .\adcswtrigger.crf --depend .\adcswtrigger.d)
+I (ADCSWTrigger.h)(0x617B3930)
+I (..\tm4c123gh6pm.h)(0x51D4D322)
+F (.\PLL.c)(0x52325FFC)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .. -I ..\..\..-ID:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="535" -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (PLL.h)(0x52325FFC)
+F (..\tm4c123gh6pm.h)(0x51D4D322)()
+F (.\ADCSWTrigger.h)(0x617B3930)()
+F (.\PLL.h)(0x52325FFC)()
+F (.\CECS347Project2.c)(0x619565A2)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .. -I ..\..\..-ID:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="535" -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\cecs347project2.o --omf_browse .\cecs347project2.crf --depend .\cecs347project2.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x62697C68)
+I (ADCSWTrigger.h)(0x617B3930)
+I (PLL.h)(0x52325FFC)
+I (..\tm4c123gh6pm.h)(0x51D4D322)
+F (..\..\CECS347_LABS\Example Labs\ADCSWTrigger\PWM1.h)(0x61956418)()
+F (.\PWM1.c)(0x6195640E)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I .. -I ..\..\..-ID:\Keil5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-ID:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="535" -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\pwm1.o --omf_browse .\pwm1.crf --depend .\pwm1.d)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x62697C68)
+I (..\tm4c123gh6pm.h)(0x51D4D322)
